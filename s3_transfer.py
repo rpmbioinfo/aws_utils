@@ -15,6 +15,7 @@ from botocore.client import ClientError
 import pandas as pd
 import numpy as np
 import os
+import sys
 
 
 def extract_bucket(uri):
